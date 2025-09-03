@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*, body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0%;
+}
+
+
+/*START Contact*/
+.contact {
+    margin-bottom: -100px;
+    z-index: 2;
+    position: relative;
+}
+
+.contact__wrap {
+    width: 80%;
+    background-image: url("../img/contact-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px 57px;
+}
+
+.contact__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__title {
+    width: 40%;
+}
+
+.contact__heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.contact__sub-heading {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact__from {
+    width: 60%;
+}
+
+.contact__row {
+    max-width: 446px;
+}
+
+.contact__col--top, .contact__col--bottom, .contact--col-height {
+    margin-bottom: 24px;
+    width: 100%;  
+}
+
+.contact__col--top, .contact__col--bottom {
+    display: flex;
+    gap: 14px;  
+}
+
+.form--half {
+    width: 50%;
+    background-color: rgba(74, 144, 226, 0.5);
+    backdrop-filter: blur(8px);
+    border: none;
+    padding: 8px 17px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.form--control {
+    width: 100%;
+    background-color: rgba(74, 144, 226, 0.5);
+    backdrop-filter: blur(8px);
+    border: none;
+    padding: 8px 17px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+.contact__submit {
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    background-color: #f21520;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+textarea.form--control {
+  overflow: hidden; 
+  resize: none;    
+}
+
+textarea::placeholder {
+    color: #ffffff;
+    font-size: 17px;
+}
+/*END Contact*/
